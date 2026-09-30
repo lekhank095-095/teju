@@ -1,0 +1,6 @@
+{
+  "name": "ExpenseIQ - Smart & Easy Expense Tracker",
+  "description": "Super simple, clean, and user-friendly expense tracker with Gemini AI auto-categorization, 3-second logging, instant demo mode, and plain-English financial tips.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

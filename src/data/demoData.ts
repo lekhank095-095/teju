@@ -1,0 +1,58 @@
+import { Expense } from '../types';
+
+export const SAMPLE_EXPENSES: Expense[] = [
+  {
+    id: 'demo-1',
+    description: 'Swiggy Dinner',
+    amount: 450,
+    category: 'Food',
+    confidence: 99,
+    date: 'Today',
+    timestamp: Date.now() - 1000 * 60 * 60 * 2,
+  },
+  {
+    id: 'demo-2',
+    description: 'Uber cab to office',
+    amount: 180,
+    category: 'Transport',
+    confidence: 98,
+    date: 'Today',
+    timestamp: Date.now() - 1000 * 60 * 60 * 6,
+  },
+  {
+    id: 'demo-3',
+    description: 'Amazon shopping',
+    amount: 899,
+    category: 'Shopping',
+    confidence: 96,
+    date: 'Yesterday',
+    timestamp: Date.now() - 1000 * 60 * 60 * 24,
+  },
+  {
+    id: 'demo-4',
+    description: 'Netflix subscription',
+    amount: 649,
+    category: 'Entertainment',
+    confidence: 99,
+    date: '28 Sep',
+    timestamp: Date.now() - 1000 * 60 * 60 * 48,
+  },
+  {
+    id: 'demo-5',
+    description: 'Electricity bill (BESCOM)',
+    amount: 1200,
+    category: 'Bills',
+    confidence: 97,
+    date: '26 Sep',
+    timestamp: Date.now() - 1000 * 60 * 60 * 72,
+  },
+  {
+    id: 'demo-6',
+    description: 'Chai & evening snacks',
+    amount: 100,
+    category: 'Food',
+    confidence: 95,
+    date: '25 Sep',
+    timestamp: Date.now() - 1000 * 60 * 60 * 96,
+  },
+];
